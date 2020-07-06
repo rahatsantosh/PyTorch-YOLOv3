@@ -24,7 +24,7 @@ device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 model = Darknet("../yolo_versions/yolov3.cfg", img_size=416).to(device)
 try:
-    model.load_darknet_weights("../yolo_versions/yolov3.weights")
+    model.load_darknet_weights("./weights/yolov3.weights")
     print("Done")
 except:
     print("Not done")
