@@ -75,7 +75,6 @@ def yolo_detect(img, model, classes, colors):
             )'''
     return np.array(img)
 
-
 vid = cv2.VideoCapture(0)
 
 while(True):
