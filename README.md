@@ -15,6 +15,11 @@ A minimal PyTorch implementation of YOLOv3, with support for training, inference
     $ cd data/
     $ bash get_coco_dataset.sh
     
+## Using pretrained weights
+Directly use pretrained weights to test the model, done here in webcam_trial.py. Pretrained weights need to be downloaded into weights folder, before running the script.
+
+    $ python3 webcam_trial.py
+
 ## Test
 Evaluates the model on COCO test.
 
